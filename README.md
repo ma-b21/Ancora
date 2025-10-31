@@ -87,3 +87,14 @@
 - `python ./utils/generate_webfix_predictions.py`(需要改代码确认为文件)
 - 配置`./utils/calculate_accuracy.py`，设置`env`、`answer_type=fs`.
 - 在项目目录下运行`python ./utils/calculate_accuracy.py`，得到准确率。
+
+## Citation
+
+```
+@article{peng2025ancora,
+  title={Ancora: Accurate Intrusion Recovery for Web Applications},
+  author={Peng, Yihao and Ma, Biao and Wan, Hai and Zhao, Xibin},
+  journal={arXiv preprint arXiv:2510.07806},
+  year={2025}
+}
+```
