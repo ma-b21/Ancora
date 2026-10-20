@@ -1,0 +1,11 @@
+*.json
+*.jsonl
+restore.sql
+*.log
+request_data/
+prov_graphs/
+*__pycache__/
+*.pyc
+*backup/
+*.txt
+data

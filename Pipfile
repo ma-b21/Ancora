@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+loguru = "*"
+rich = "*"
+requests = "*"
+locust = "*"
+tqdm = "*"
+networkx = "==2.8"
+matplotlib = "*"
+pygraphviz = "*"
+watchdog = "*"
+docker = "*"
+numpy = "*"
+pandas = "*"
+torch = {version = "*", index = "pypi"}
+torchvision = {version = "*", index = "pypi"}
+torchaudio = {version = "*", index = "pypi"}
+scikit-learn = "*"
+lxml = "*"
+playwright = "*"
+beautifulsoup4 = "*"
+termcolor = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
